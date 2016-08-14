@@ -406,7 +406,7 @@ public class DctController extends Handler {
                 + ", activePhoneId=" + activePhoneId);
 
         if (requestedPhoneId == INVALID_PHONE_INDEX) {
-            // We have no network request - don't bother with this
+            // we have no network request - don't bother with this
             return;
         }
 
